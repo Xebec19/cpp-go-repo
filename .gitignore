@@ -1,0 +1,41 @@
+# -------------------
+# C++
+# -------------------
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.so
+*.a
+*.out
+
+# -------------------
+# Generated protobuf/grpc files
+# (optional)
+# -------------------
+
+generated/
+
+# -------------------
+# Go
+# -------------------
+
+go-client/bin/
+*.exe
+
+# -------------------
+# IDE
+# -------------------
+
+.vscode/
+.idea/
+
+# -------------------
+# OS
+# -------------------
+
+.DS_Store
+Thumbs.db
